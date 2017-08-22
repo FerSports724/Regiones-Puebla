@@ -1,0 +1,362 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1604EF841EC2187B00F4FFC6 /* infoRegionesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1604EF831EC2187B00F4FFC6 /* infoRegionesViewController.swift */; };
+		16AD1EED1EC60D2C00C35A9C /* datosGeneralesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16AD1EEC1EC60D2C00C35A9C /* datosGeneralesViewController.swift */; };
+		16B92CA01ED35AC500035238 /* ContentImagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B92C9F1ED35AC500035238 /* ContentImagesViewController.swift */; };
+		16B92CA21ED35BAC00035238 /* contenidoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B92CA11ED35BAC00035238 /* contenidoManager.swift */; };
+		16B92CA41ED35FFC00035238 /* lasImagensitas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B92CA31ED35FFC00035238 /* lasImagensitas.swift */; };
+		16C6FDDA1ECBCBEC003D3B87 /* regionTehuacan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C6FDD91ECBCBEC003D3B87 /* regionTehuacan.swift */; };
+		16E7A2F91ECB343B009D4989 /* atractivosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E7A2F81ECB343A009D4989 /* atractivosViewController.swift */; };
+		16E7A2FB1ECB445D009D4989 /* CeldasViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E7A2FA1ECB445D009D4989 /* CeldasViewCell.swift */; };
+		16F9D8C71DF07A4100F39042 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F9D8C61DF07A4100F39042 /* AppDelegate.swift */; };
+		16F9D8C91DF07A4100F39042 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F9D8C81DF07A4100F39042 /* ViewController.swift */; };
+		16F9D8CC1DF07A4100F39042 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16F9D8CA1DF07A4100F39042 /* Main.storyboard */; };
+		16F9D8CE1DF07A4100F39042 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16F9D8CD1DF07A4100F39042 /* Assets.xcassets */; };
+		16F9D8D11DF07A4100F39042 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16F9D8CF1DF07A4100F39042 /* LaunchScreen.storyboard */; };
+		16FDD95C1EDF077900FC3AB9 /* creditosVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16FDD95B1EDF077900FC3AB9 /* creditosVC.swift */; };
+		16FDD95E1EDF38D200FC3AB9 /* creditosVCCelda.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16FDD95D1EDF38D200FC3AB9 /* creditosVCCelda.swift */; };
+		16FDD9601EDF443400FC3AB9 /* alumnosCreditos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16FDD95F1EDF443400FC3AB9 /* alumnosCreditos.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1604EF831EC2187B00F4FFC6 /* infoRegionesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = infoRegionesViewController.swift; sourceTree = "<group>"; };
+		16AD1EEC1EC60D2C00C35A9C /* datosGeneralesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = datosGeneralesViewController.swift; sourceTree = "<group>"; };
+		16B92C9F1ED35AC500035238 /* ContentImagesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentImagesViewController.swift; sourceTree = "<group>"; };
+		16B92CA11ED35BAC00035238 /* contenidoManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = contenidoManager.swift; sourceTree = "<group>"; };
+		16B92CA31ED35FFC00035238 /* lasImagensitas.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = lasImagensitas.swift; sourceTree = "<group>"; };
+		16C6FDD91ECBCBEC003D3B87 /* regionTehuacan.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = regionTehuacan.swift; sourceTree = "<group>"; };
+		16E7A2F81ECB343A009D4989 /* atractivosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = atractivosViewController.swift; sourceTree = "<group>"; };
+		16E7A2FA1ECB445D009D4989 /* CeldasViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CeldasViewCell.swift; sourceTree = "<group>"; };
+		16F9D8C31DF07A4100F39042 /* Feria Regional  Poblana - Regiones Socioeconomicas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Feria Regional  Poblana - Regiones Socioeconomicas.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		16F9D8C61DF07A4100F39042 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		16F9D8C81DF07A4100F39042 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		16F9D8CB1DF07A4100F39042 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		16F9D8CD1DF07A4100F39042 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		16F9D8D01DF07A4100F39042 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		16F9D8D21DF07A4100F39042 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16FDD95B1EDF077900FC3AB9 /* creditosVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = creditosVC.swift; sourceTree = "<group>"; };
+		16FDD95D1EDF38D200FC3AB9 /* creditosVCCelda.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = creditosVCCelda.swift; sourceTree = "<group>"; };
+		16FDD95F1EDF443400FC3AB9 /* alumnosCreditos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = alumnosCreditos.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		16F9D8C01DF07A4000F39042 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16F9D8BA1DF07A4000F39042 = {
+			isa = PBXGroup;
+			children = (
+				16F9D8C51DF07A4100F39042 /* Feria Regional  Poblana - Regiones Socioeconomicas */,
+				16F9D8C41DF07A4100F39042 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		16F9D8C41DF07A4100F39042 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				16F9D8C31DF07A4100F39042 /* Feria Regional  Poblana - Regiones Socioeconomicas.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		16F9D8C51DF07A4100F39042 /* Feria Regional  Poblana - Regiones Socioeconomicas */ = {
+			isa = PBXGroup;
+			children = (
+				16F9D8C61DF07A4100F39042 /* AppDelegate.swift */,
+				16F9D8C81DF07A4100F39042 /* ViewController.swift */,
+				16F9D8CA1DF07A4100F39042 /* Main.storyboard */,
+				16FDD95D1EDF38D200FC3AB9 /* creditosVCCelda.swift */,
+				16FDD95B1EDF077900FC3AB9 /* creditosVC.swift */,
+				16FDD95F1EDF443400FC3AB9 /* alumnosCreditos.swift */,
+				16B92C9F1ED35AC500035238 /* ContentImagesViewController.swift */,
+				16B92CA31ED35FFC00035238 /* lasImagensitas.swift */,
+				16B92CA11ED35BAC00035238 /* contenidoManager.swift */,
+				16E7A2F81ECB343A009D4989 /* atractivosViewController.swift */,
+				16E7A2FA1ECB445D009D4989 /* CeldasViewCell.swift */,
+				16C6FDD91ECBCBEC003D3B87 /* regionTehuacan.swift */,
+				16AD1EEC1EC60D2C00C35A9C /* datosGeneralesViewController.swift */,
+				1604EF831EC2187B00F4FFC6 /* infoRegionesViewController.swift */,
+				16F9D8CF1DF07A4100F39042 /* LaunchScreen.storyboard */,
+				16F9D8CD1DF07A4100F39042 /* Assets.xcassets */,
+				16F9D8D21DF07A4100F39042 /* Info.plist */,
+			);
+			path = "Feria Regional  Poblana - Regiones Socioeconomicas";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		16F9D8C21DF07A4000F39042 /* Feria Regional  Poblana - Regiones Socioeconomicas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16F9D8D51DF07A4100F39042 /* Build configuration list for PBXNativeTarget "Feria Regional  Poblana - Regiones Socioeconomicas" */;
+			buildPhases = (
+				16F9D8BF1DF07A4000F39042 /* Sources */,
+				16F9D8C01DF07A4000F39042 /* Frameworks */,
+				16F9D8C11DF07A4000F39042 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Feria Regional  Poblana - Regiones Socioeconomicas";
+			productName = "Feria Regional  Poblana - Regiones Socioeconomicas";
+			productReference = 16F9D8C31DF07A4100F39042 /* Feria Regional  Poblana - Regiones Socioeconomicas.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		16F9D8BB1DF07A4000F39042 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Fernando Vazquez Bernal";
+				TargetAttributes = {
+					16F9D8C21DF07A4000F39042 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 738YZJQJ3T;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 16F9D8BE1DF07A4000F39042 /* Build configuration list for PBXProject "Feria Regional  Poblana - Regiones Socioeconomicas" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 16F9D8BA1DF07A4000F39042;
+			productRefGroup = 16F9D8C41DF07A4100F39042 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				16F9D8C21DF07A4000F39042 /* Feria Regional  Poblana - Regiones Socioeconomicas */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		16F9D8C11DF07A4000F39042 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16F9D8D11DF07A4100F39042 /* LaunchScreen.storyboard in Resources */,
+				16F9D8CE1DF07A4100F39042 /* Assets.xcassets in Resources */,
+				16F9D8CC1DF07A4100F39042 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		16F9D8BF1DF07A4000F39042 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16B92CA41ED35FFC00035238 /* lasImagensitas.swift in Sources */,
+				1604EF841EC2187B00F4FFC6 /* infoRegionesViewController.swift in Sources */,
+				16F9D8C91DF07A4100F39042 /* ViewController.swift in Sources */,
+				16AD1EED1EC60D2C00C35A9C /* datosGeneralesViewController.swift in Sources */,
+				16E7A2F91ECB343B009D4989 /* atractivosViewController.swift in Sources */,
+				16FDD95C1EDF077900FC3AB9 /* creditosVC.swift in Sources */,
+				16B92CA01ED35AC500035238 /* ContentImagesViewController.swift in Sources */,
+				16FDD95E1EDF38D200FC3AB9 /* creditosVCCelda.swift in Sources */,
+				16E7A2FB1ECB445D009D4989 /* CeldasViewCell.swift in Sources */,
+				16C6FDDA1ECBCBEC003D3B87 /* regionTehuacan.swift in Sources */,
+				16FDD9601EDF443400FC3AB9 /* alumnosCreditos.swift in Sources */,
+				16F9D8C71DF07A4100F39042 /* AppDelegate.swift in Sources */,
+				16B92CA21ED35BAC00035238 /* contenidoManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		16F9D8CA1DF07A4100F39042 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16F9D8CB1DF07A4100F39042 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		16F9D8CF1DF07A4100F39042 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16F9D8D01DF07A4100F39042 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		16F9D8D31DF07A4100F39042 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		16F9D8D41DF07A4100F39042 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		16F9D8D61DF07A4100F39042 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 738YZJQJ3T;
+				INFOPLIST_FILE = "Feria Regional  Poblana - Regiones Socioeconomicas/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.devfvb.Regiones-Scioeconomicas-De-Puebla";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		16F9D8D71DF07A4100F39042 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 738YZJQJ3T;
+				INFOPLIST_FILE = "Feria Regional  Poblana - Regiones Socioeconomicas/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.devfvb.Regiones-Scioeconomicas-De-Puebla";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		16F9D8BE1DF07A4000F39042 /* Build configuration list for PBXProject "Feria Regional  Poblana - Regiones Socioeconomicas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16F9D8D31DF07A4100F39042 /* Debug */,
+				16F9D8D41DF07A4100F39042 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16F9D8D51DF07A4100F39042 /* Build configuration list for PBXNativeTarget "Feria Regional  Poblana - Regiones Socioeconomicas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16F9D8D61DF07A4100F39042 /* Debug */,
+				16F9D8D71DF07A4100F39042 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 16F9D8BB1DF07A4000F39042 /* Project object */;
+}

@@ -1,0 +1,596 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="CEj-rL-Wfp">
+    <device id="ipad9_7" orientation="landscape">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="fSG-96-C1M">
+            <objects>
+                <viewController id="57T-FV-QDk" customClass="ViewController" customModule="Feria_Regional__Poblana___Regiones_Socioeconomicas" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="hbj-c8-LKa"/>
+                        <viewControllerLayoutGuide type="bottom" id="uSR-OV-hGf"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="yp6-hY-EmI">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Mapa" translatesAutoresizingMaskIntoConstraints="NO" id="fWK-3d-OIF">
+                                <rect key="frame" x="256" y="30" width="513" height="643"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="2aA-Lw-apL" userLabel="Izquierda">
+                                <rect key="frame" x="20" y="20" width="207" height="731"/>
+                                <subviews>
+                                    <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fw9-Tv-0qG">
+                                        <rect key="frame" x="0.0" y="0.0" width="207" height="203"/>
+                                        <state key="normal" image="btnSierraNorte"/>
+                                        <connections>
+                                            <action selector="regionInformacion:" destination="57T-FV-QDk" eventType="touchUpInside" id="nZf-9Q-eqd"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="40S-q6-1il">
+                                        <rect key="frame" x="0.0" y="211" width="207" height="168"/>
+                                        <state key="normal" image="btnAngelopolis"/>
+                                        <connections>
+                                            <action selector="regionInformacion:" destination="57T-FV-QDk" eventType="touchUpInside" id="vcZ-sq-mui"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1vA-EX-dUm">
+                                        <rect key="frame" x="0.0" y="387" width="207" height="168"/>
+                                        <state key="normal" image="btnAtlixco"/>
+                                        <connections>
+                                            <action selector="regionInformacion:" destination="57T-FV-QDk" eventType="touchUpInside" id="Vfq-cg-pkg"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uSJ-7e-8FX">
+                                        <rect key="frame" x="0.0" y="563" width="207" height="168"/>
+                                        <state key="normal" image="btnMixteca"/>
+                                        <connections>
+                                            <action selector="regionInformacion:" destination="57T-FV-QDk" eventType="touchUpInside" id="qac-vJ-bMp"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="2aA-Lw-apL" secondAttribute="height" multiplier="207:731" id="czP-Hj-kwE"/>
+                                </constraints>
+                                <variation key="heightClass=compact" spacing="2"/>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="Jfr-92-73P" userLabel="Derecha">
+                                <rect key="frame" x="797" y="20" width="207" height="736"/>
+                                <subviews>
+                                    <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G8B-J8-UUe">
+                                        <rect key="frame" x="0.0" y="0.0" width="207" height="259"/>
+                                        <state key="normal" image="btnSierraNororiental"/>
+                                        <connections>
+                                            <action selector="regionInformacion:" destination="57T-FV-QDk" eventType="touchUpInside" id="vvI-qQ-PVn"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SMr-As-ye2">
+                                        <rect key="frame" x="0.0" y="284" width="207" height="259"/>
+                                        <state key="normal" image="btnValleSerdan"/>
+                                        <connections>
+                                            <action selector="regionInformacion:" destination="57T-FV-QDk" eventType="touchUpInside" id="R5u-af-Shy"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t20-xJ-7pU">
+                                        <rect key="frame" x="0.0" y="568" width="207" height="168"/>
+                                        <state key="normal" image="btnTehuacan"/>
+                                        <connections>
+                                            <action selector="regionInformacion:" destination="57T-FV-QDk" eventType="touchUpInside" id="wol-zO-IzT"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Jfr-92-73P" secondAttribute="height" multiplier="9:32" id="ZG2-BV-20i"/>
+                                </constraints>
+                                <variation key="heightClass=compact" spacing="10"/>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nVN-fM-sYf">
+                                <rect key="frame" x="246" y="681" width="533" height="79"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="177" id="ZMv-5p-n4j"/>
+                                    <constraint firstAttribute="width" secondItem="nVN-fM-sYf" secondAttribute="height" multiplier="533:79" id="gxO-0c-caZ"/>
+                                    <constraint firstAttribute="height" constant="26" id="kA0-R4-fh9"/>
+                                </constraints>
+                                <state key="normal" image="btnMoreInfo"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="ZMv-5p-n4j"/>
+                                        <exclude reference="kA0-R4-fh9"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="ZMv-5p-n4j"/>
+                                        <exclude reference="gxO-0c-caZ"/>
+                                        <include reference="kA0-R4-fh9"/>
+                                    </mask>
+                                </variation>
+                                <connections>
+                                    <segue destination="fAv-Et-JCg" kind="presentation" id="l8A-gM-hUp"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="fWK-3d-OIF" firstAttribute="top" secondItem="hbj-c8-LKa" secondAttribute="bottom" constant="10" id="2IR-me-1OB"/>
+                            <constraint firstItem="2aA-Lw-apL" firstAttribute="leading" secondItem="yp6-hY-EmI" secondAttribute="leadingMargin" id="2ec-c8-UGx"/>
+                            <constraint firstItem="uSR-OV-hGf" firstAttribute="top" secondItem="2aA-Lw-apL" secondAttribute="bottom" constant="17" id="7x2-N2-a3h"/>
+                            <constraint firstItem="fWK-3d-OIF" firstAttribute="leading" secondItem="2aA-Lw-apL" secondAttribute="trailing" constant="29" id="E90-57-wFI"/>
+                            <constraint firstItem="Jfr-92-73P" firstAttribute="trailing" secondItem="yp6-hY-EmI" secondAttribute="trailingMargin" id="JTN-Uy-vUc"/>
+                            <constraint firstItem="2aA-Lw-apL" firstAttribute="top" secondItem="hbj-c8-LKa" secondAttribute="bottom" id="M4b-VX-aYy"/>
+                            <constraint firstItem="fWK-3d-OIF" firstAttribute="centerX" secondItem="yp6-hY-EmI" secondAttribute="centerX" id="RFG-Sk-ONp"/>
+                            <constraint firstItem="Jfr-92-73P" firstAttribute="leading" secondItem="fWK-3d-OIF" secondAttribute="trailing" constant="28" id="Y4v-01-PF2"/>
+                            <constraint firstItem="Jfr-92-73P" firstAttribute="leading" secondItem="nVN-fM-sYf" secondAttribute="trailing" constant="18" id="ezc-jC-tJ4"/>
+                            <constraint firstItem="uSR-OV-hGf" firstAttribute="top" secondItem="nVN-fM-sYf" secondAttribute="bottom" constant="8" id="fhJ-nf-OeM"/>
+                            <constraint firstItem="nVN-fM-sYf" firstAttribute="centerX" secondItem="yp6-hY-EmI" secondAttribute="centerX" id="ieK-bo-WcN"/>
+                            <constraint firstItem="uSR-OV-hGf" firstAttribute="top" secondItem="Jfr-92-73P" secondAttribute="bottom" constant="12" id="mn6-zz-C6w"/>
+                            <constraint firstItem="nVN-fM-sYf" firstAttribute="leading" secondItem="2aA-Lw-apL" secondAttribute="trailing" constant="19" id="n2c-9z-j4e"/>
+                            <constraint firstItem="nVN-fM-sYf" firstAttribute="top" secondItem="fWK-3d-OIF" secondAttribute="bottom" constant="8" id="q7f-xK-ibQ"/>
+                            <constraint firstItem="Jfr-92-73P" firstAttribute="top" secondItem="hbj-c8-LKa" secondAttribute="bottom" id="rgG-sg-Fnj"/>
+                        </constraints>
+                        <variation key="heightClass=compact">
+                            <mask key="constraints">
+                                <exclude reference="n2c-9z-j4e"/>
+                                <exclude reference="ezc-jC-tJ4"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <navigationItem key="navigationItem" id="I6l-zV-ln6"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="atp-9f-GoK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="897.65624999999989" y="-107.03125"/>
+        </scene>
+        <!--CreditosVC-->
+        <scene sceneID="w1M-Rd-lwH">
+            <objects>
+                <viewController id="fAv-Et-JCg" customClass="creditosVC" customModule="Feria_Regional__Poblana___Regiones_Socioeconomicas" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="PFZ-Pj-uvY"/>
+                        <viewControllerLayoutGuide type="bottom" id="Njt-nL-JWW"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="uF5-pv-e5Z">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qAi-fH-I7F">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="44"/>
+                                <items>
+                                    <navigationItem title="CRÉDITOS" id="uah-yB-oId">
+                                        <barButtonItem key="leftBarButtonItem" systemItem="rewind" id="Etg-gW-fsu">
+                                            <connections>
+                                                <action selector="backButtonMain:" destination="fAv-Et-JCg" id="OPc-T6-1uG"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="40" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="pRo-Qr-Qwf">
+                                <rect key="frame" x="0.0" y="126" width="1024" height="642"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="datosCell" id="CVB-ev-uV4" customClass="creditosVCCelda" customModule="Feria_Regional__Poblana___Regiones_Socioeconomicas" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="1024" height="40"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="CVB-ev-uV4" id="bIJ-1E-afx">
+                                            <rect key="frame" x="0.0" y="0.0" width="1024" height="40"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LABEL DE LA REGIÓN" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="EqH-tu-myI">
+                                                    <rect key="frame" x="8" y="0.0" width="255.5" height="39.5"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="255.5" id="yGd-GB-oNf">
+                                                            <variation key="heightClass=compact" constant="175"/>
+                                                        </constraint>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="25"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                    <variation key="widthClass=compact">
+                                                        <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="17"/>
+                                                    </variation>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LABEL DONDE IRÁN LOS NOMBRES DE LOS ALUMNOS" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.25" translatesAutoresizingMaskIntoConstraints="NO" id="IHO-wt-gjH">
+                                                    <rect key="frame" x="293.5" y="0.0" width="648" height="40"/>
+                                                    <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="25"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                    <variation key="heightClass=compact">
+                                                        <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="12"/>
+                                                    </variation>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="bottom" secondItem="EqH-tu-myI" secondAttribute="bottom" id="Mqw-2w-DLL"/>
+                                                <constraint firstItem="EqH-tu-myI" firstAttribute="leading" secondItem="bIJ-1E-afx" secondAttribute="leading" constant="8" id="PCo-ny-15Z"/>
+                                                <constraint firstAttribute="bottom" secondItem="IHO-wt-gjH" secondAttribute="bottom" id="SGK-pW-mZC"/>
+                                                <constraint firstItem="EqH-tu-myI" firstAttribute="top" secondItem="bIJ-1E-afx" secondAttribute="top" id="e0d-7g-qAc"/>
+                                                <constraint firstItem="IHO-wt-gjH" firstAttribute="leading" secondItem="EqH-tu-myI" secondAttribute="trailing" constant="30" id="gmI-9j-49q"/>
+                                                <constraint firstItem="IHO-wt-gjH" firstAttribute="top" secondItem="bIJ-1E-afx" secondAttribute="top" id="jfw-yH-Ni4"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="labelPrimeraDatos" destination="IHO-wt-gjH" id="x7n-3U-SyV"/>
+                                            <outlet property="labelRegion" destination="EqH-tu-myI" id="MwB-eP-C8N"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="fAv-Et-JCg" id="nZP-4C-g7k"/>
+                                    <outlet property="delegate" destination="fAv-Et-JCg" id="9bB-LL-GOk"/>
+                                </connections>
+                            </tableView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="REGIONES SOCIOECONÓMICAS DE PUEBLA" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wgO-8z-ZGu">
+                                <rect key="frame" x="20" y="54" width="984" height="64"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="wgO-8z-ZGu" secondAttribute="height" multiplier="123:8" id="bnv-dJ-Omh"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="45"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=compact">
+                                    <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="20"/>
+                                </variation>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="pRo-Qr-Qwf" firstAttribute="top" secondItem="wgO-8z-ZGu" secondAttribute="bottom" constant="8" id="0ds-kq-m3c"/>
+                            <constraint firstAttribute="trailing" secondItem="pRo-Qr-Qwf" secondAttribute="trailing" id="6kN-qV-6ZB"/>
+                            <constraint firstItem="qAi-fH-I7F" firstAttribute="leading" secondItem="uF5-pv-e5Z" secondAttribute="leading" id="Ffn-Mq-2U6"/>
+                            <constraint firstItem="wgO-8z-ZGu" firstAttribute="top" secondItem="qAi-fH-I7F" secondAttribute="bottom" constant="10" id="HhF-zG-0De"/>
+                            <constraint firstItem="wgO-8z-ZGu" firstAttribute="centerX" secondItem="uF5-pv-e5Z" secondAttribute="centerX" id="cXP-Rs-Tre"/>
+                            <constraint firstItem="pRo-Qr-Qwf" firstAttribute="leading" secondItem="uF5-pv-e5Z" secondAttribute="leading" id="kBj-SF-uyG"/>
+                            <constraint firstItem="Njt-nL-JWW" firstAttribute="top" secondItem="pRo-Qr-Qwf" secondAttribute="bottom" id="l3q-vT-IOJ"/>
+                            <constraint firstItem="wgO-8z-ZGu" firstAttribute="leading" secondItem="uF5-pv-e5Z" secondAttribute="leadingMargin" id="mku-VR-42i"/>
+                            <constraint firstItem="qAi-fH-I7F" firstAttribute="top" secondItem="uF5-pv-e5Z" secondAttribute="top" id="oj7-oW-VUG"/>
+                            <constraint firstItem="wgO-8z-ZGu" firstAttribute="trailing" secondItem="uF5-pv-e5Z" secondAttribute="trailingMargin" id="y15-Uw-nEa"/>
+                            <constraint firstAttribute="trailing" secondItem="qAi-fH-I7F" secondAttribute="trailing" id="yXG-ea-hh5"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="tableView" destination="pRo-Qr-Qwf" id="VCj-g3-7uF"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WnS-DP-AWX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="897.65624999999989" y="840.625"/>
+        </scene>
+        <!--Atractivos View Controller-->
+        <scene sceneID="KHX-xE-4Mh">
+            <objects>
+                <viewController storyboardIdentifier="atractivosID" id="tdC-6s-MaP" customClass="atractivosViewController" customModule="Feria_Regional__Poblana___Regiones_Socioeconomicas" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="VFT-d6-2SL"/>
+                        <viewControllerLayoutGuide type="bottom" id="1Pd-Ye-sFh"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="v3H-wK-Sl3">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PXT-Hl-B8m">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="44"/>
+                                <items>
+                                    <navigationItem title="Title" id="NMh-GW-IsZ">
+                                        <barButtonItem key="leftBarButtonItem" systemItem="rewind" id="TB1-bi-Z9l">
+                                            <connections>
+                                                <action selector="backButtonAtractivo:" destination="tdC-6s-MaP" id="wSv-EB-Eat"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="200" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="dN8-Cr-t51">
+                                <rect key="frame" x="0.0" y="44" width="1024" height="724"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="atractivo" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="atractivo" id="rr1-P8-NlW" customClass="CeldasViewCell" customModule="Feria_Regional__Poblana___Regiones_Socioeconomicas" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="1024" height="200"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="rr1-P8-NlW" id="EDp-g9-U7I">
+                                            <rect key="frame" x="0.0" y="0.0" width="1024" height="200"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="r5l-ER-nUu">
+                                                    <rect key="frame" x="0.0" y="0.5" width="1024" height="199"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" secondItem="r5l-ER-nUu" secondAttribute="height" multiplier="1024:199" id="ziZ-PS-AAT"/>
+                                                    </constraints>
+                                                </imageView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="r5l-ER-nUu" firstAttribute="leading" secondItem="EDp-g9-U7I" secondAttribute="leading" id="Bsl-gb-WVa"/>
+                                                <constraint firstAttribute="bottom" secondItem="r5l-ER-nUu" secondAttribute="bottom" id="IpW-4t-YH8"/>
+                                                <constraint firstItem="r5l-ER-nUu" firstAttribute="centerX" secondItem="EDp-g9-U7I" secondAttribute="centerX" id="WiF-Ip-k2M"/>
+                                                <constraint firstAttribute="trailing" secondItem="r5l-ER-nUu" secondAttribute="trailing" id="nB9-tF-Kp0"/>
+                                                <constraint firstItem="r5l-ER-nUu" firstAttribute="top" secondItem="EDp-g9-U7I" secondAttribute="top" id="zdy-MT-jG0"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="imagenCelda" destination="r5l-ER-nUu" id="fo1-DL-neA"/>
+                                            <segue destination="Yn3-w2-Dht" kind="presentation" identifier="showAtractivo" id="KeO-Ec-Txt"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="tdC-6s-MaP" id="QBQ-nb-vgS"/>
+                                    <outlet property="delegate" destination="tdC-6s-MaP" id="HfW-Ei-7FX"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="PXT-Hl-B8m" firstAttribute="leading" secondItem="v3H-wK-Sl3" secondAttribute="leading" id="4g9-xa-TG8"/>
+                            <constraint firstItem="1Pd-Ye-sFh" firstAttribute="top" secondItem="dN8-Cr-t51" secondAttribute="bottom" id="OC3-XX-SxD"/>
+                            <constraint firstAttribute="trailing" secondItem="PXT-Hl-B8m" secondAttribute="trailing" id="lrG-w5-Str"/>
+                            <constraint firstItem="dN8-Cr-t51" firstAttribute="leading" secondItem="v3H-wK-Sl3" secondAttribute="leading" id="qzR-qQ-jkJ"/>
+                            <constraint firstItem="PXT-Hl-B8m" firstAttribute="top" secondItem="v3H-wK-Sl3" secondAttribute="top" id="srQ-ty-1ro"/>
+                            <constraint firstAttribute="trailing" secondItem="dN8-Cr-t51" secondAttribute="trailing" id="wW3-I9-O7x"/>
+                            <constraint firstItem="dN8-Cr-t51" firstAttribute="top" secondItem="PXT-Hl-B8m" secondAttribute="bottom" id="xEk-TI-0Uh"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="brincaLaTablita" destination="dN8-Cr-t51" id="fDT-EF-DeA"/>
+                        <outlet property="navBar" destination="NMh-GW-IsZ" id="fQp-9o-BVq"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ppa-Fs-f1D" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2145.703125" y="-863.28125"/>
+        </scene>
+        <!--Las Imagensitas-->
+        <scene sceneID="cmu-BM-9AG">
+            <objects>
+                <pageViewController storyboardIdentifier="imagenesAtr" autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="Yn3-w2-Dht" customClass="lasImagensitas" customModule="Feria_Regional__Poblana___Regiones_Socioeconomicas" customModuleProvider="target" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uRh-j4-gYk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2860" y="-863"/>
+        </scene>
+        <!--Content Images View Controller-->
+        <scene sceneID="tkG-ur-d12">
+            <objects>
+                <viewController storyboardIdentifier="imagenesAtr02" modalTransitionStyle="crossDissolve" modalPresentationStyle="overCurrentContext" id="dif-yj-LBo" customClass="ContentImagesViewController" customModule="Feria_Regional__Poblana___Regiones_Socioeconomicas" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="fjI-zs-18n"/>
+                        <viewControllerLayoutGuide type="bottom" id="bP2-J9-4JM"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Yxd-oG-OIF">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IcO-C2-EqU">
+                                <rect key="frame" x="149.5" y="120" width="725" height="528"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Chignahuapan0" translatesAutoresizingMaskIntoConstraints="NO" id="ST2-x2-xD2">
+                                        <rect key="frame" x="0.0" y="0.0" width="725" height="528"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="ST2-x2-xD2" secondAttribute="height" multiplier="725:528" id="y70-pc-fxb"/>
+                                        </constraints>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sfy-BE-zJ5">
+                                        <rect key="frame" x="645" y="0.0" width="80" height="64"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="64" id="w9L-PM-Qsb"/>
+                                            <constraint firstAttribute="width" constant="80" id="yWH-ft-ENb"/>
+                                        </constraints>
+                                        <state key="normal" image="closeBtn"/>
+                                        <connections>
+                                            <action selector="closeVentanita:" destination="dif-yj-LBo" eventType="touchUpInside" id="UcO-uc-A4h"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="ST2-x2-xD2" firstAttribute="top" secondItem="IcO-C2-EqU" secondAttribute="top" id="63q-ks-SP0"/>
+                                    <constraint firstAttribute="trailing" secondItem="Sfy-BE-zJ5" secondAttribute="trailing" id="6ci-SA-EkM"/>
+                                    <constraint firstItem="Sfy-BE-zJ5" firstAttribute="top" secondItem="IcO-C2-EqU" secondAttribute="top" id="Cjf-rb-x9T"/>
+                                    <constraint firstAttribute="height" constant="528" id="PdF-8h-TvP">
+                                        <variation key="heightClass=compact" constant="264"/>
+                                    </constraint>
+                                    <constraint firstAttribute="width" constant="725" id="Yfn-x4-jJi">
+                                        <variation key="heightClass=compact" constant="363"/>
+                                    </constraint>
+                                    <constraint firstItem="ST2-x2-xD2" firstAttribute="leading" secondItem="IcO-C2-EqU" secondAttribute="leading" id="cm1-a0-ynu"/>
+                                    <constraint firstAttribute="bottom" secondItem="ST2-x2-xD2" secondAttribute="bottom" id="epM-xt-3VK"/>
+                                    <constraint firstAttribute="trailing" secondItem="ST2-x2-xD2" secondAttribute="trailing" id="irl-gd-fVR"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="0.45000000000000001" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="IcO-C2-EqU" firstAttribute="centerY" secondItem="Yxd-oG-OIF" secondAttribute="centerY" id="W4M-RE-5nD"/>
+                            <constraint firstItem="IcO-C2-EqU" firstAttribute="centerX" secondItem="Yxd-oG-OIF" secondAttribute="centerX" id="bbD-Nc-eeK"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imagenAtractivo" destination="ST2-x2-xD2" id="rut-se-dx9"/>
+                        <outlet property="vistaImagen" destination="IcO-C2-EqU" id="Esh-sE-eR0"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fBz-AM-NaS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3545.5078124999995" y="-863.28125"/>
+        </scene>
+        <!--Info Regiones View Controller-->
+        <scene sceneID="o5D-jI-bIs">
+            <objects>
+                <viewController storyboardIdentifier="infoRegiones" modalTransitionStyle="crossDissolve" modalPresentationStyle="overCurrentContext" id="gSZ-Xt-rmM" customClass="infoRegionesViewController" customModule="Feria_Regional__Poblana___Regiones_Socioeconomicas" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="bqT-Lg-Vrf"/>
+                        <viewControllerLayoutGuide type="bottom" id="5YK-mI-xub"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="HOu-KT-rJf">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3P8-F0-oPy">
+                                <rect key="frame" x="167" y="104.5" width="690" height="559"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="inicioAtlixco" translatesAutoresizingMaskIntoConstraints="NO" id="ipf-cB-l7d">
+                                        <rect key="frame" x="0.0" y="0.0" width="690" height="447.5"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="ipf-cB-l7d" secondAttribute="height" multiplier="575:373" id="g7p-6p-TXE"/>
+                                        </constraints>
+                                    </imageView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="h30-XN-4qO" userLabel="BarraBotones">
+                                        <rect key="frame" x="0.0" y="457" width="690" height="102"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lQi-kb-PuD">
+                                                <rect key="frame" x="0.0" y="0.0" width="111" height="102"/>
+                                                <state key="normal" image="btnCerrar"/>
+                                                <connections>
+                                                    <action selector="dismissVC:" destination="gSZ-Xt-rmM" eventType="touchUpInside" id="4BS-IK-En8"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Be-Jo-YxU">
+                                                <rect key="frame" x="119" y="0.0" width="281.5" height="102"/>
+                                                <state key="normal" image="BtnDatos"/>
+                                                <connections>
+                                                    <action selector="btnDatos:" destination="gSZ-Xt-rmM" eventType="touchUpInside" id="mxU-sT-nJG"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="maN-VB-eTj">
+                                                <rect key="frame" x="408.5" y="0.0" width="281.5" height="102"/>
+                                                <state key="normal" image="btnAtractivos"/>
+                                                <connections>
+                                                    <action selector="btnAtractivos:" destination="gSZ-Xt-rmM" eventType="touchUpInside" id="eLe-OR-IlR"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="h30-XN-4qO" secondAttribute="height" multiplier="115:17" id="JOp-2s-Euf"/>
+                                        </constraints>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.99990516901016235" green="1" blue="0.99987047910690308" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="ipf-cB-l7d" firstAttribute="leading" secondItem="3P8-F0-oPy" secondAttribute="leading" id="8Ru-pb-deR"/>
+                                    <constraint firstAttribute="height" constant="559" id="FBg-El-8YH">
+                                        <variation key="heightClass=compact" constant="233"/>
+                                    </constraint>
+                                    <constraint firstItem="ipf-cB-l7d" firstAttribute="top" secondItem="3P8-F0-oPy" secondAttribute="top" id="O56-aX-FbD"/>
+                                    <constraint firstItem="h30-XN-4qO" firstAttribute="leading" secondItem="3P8-F0-oPy" secondAttribute="leading" id="XLV-0f-ioR"/>
+                                    <constraint firstAttribute="bottom" secondItem="h30-XN-4qO" secondAttribute="bottom" id="scK-Od-wZQ"/>
+                                    <constraint firstAttribute="width" constant="690" id="tme-A3-oCU">
+                                        <variation key="heightClass=compact" constant="287"/>
+                                    </constraint>
+                                    <constraint firstAttribute="trailing" secondItem="h30-XN-4qO" secondAttribute="trailing" id="vgO-Ws-xla"/>
+                                    <constraint firstAttribute="trailing" secondItem="ipf-cB-l7d" secondAttribute="trailing" id="yLs-Lm-uzt"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="0.75" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="3P8-F0-oPy" firstAttribute="centerX" secondItem="HOu-KT-rJf" secondAttribute="centerX" id="weH-7x-YFa"/>
+                            <constraint firstItem="3P8-F0-oPy" firstAttribute="centerY" secondItem="HOu-KT-rJf" secondAttribute="centerY" id="y3K-Sc-0Q7"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imagenInfo" destination="ipf-cB-l7d" id="wsn-vI-teP"/>
+                        <outlet property="viewSalida" destination="3P8-F0-oPy" id="rld-aJ-vY8"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rvs-qt-OeL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1611" y="-113"/>
+        </scene>
+        <!--Datos Generales View Controller-->
+        <scene sceneID="vPu-A8-Iui">
+            <objects>
+                <viewController storyboardIdentifier="datosGeneralesVC" id="wEL-kW-EBg" customClass="datosGeneralesViewController" customModule="Feria_Regional__Poblana___Regiones_Socioeconomicas" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Epn-eT-hFw"/>
+                        <viewControllerLayoutGuide type="bottom" id="f5Q-sp-hJy"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="7v0-H1-w3W">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="datosGeneralesTehuacanG" translatesAutoresizingMaskIntoConstraints="NO" id="SF4-zT-1Jj">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="SF4-zT-1Jj" secondAttribute="height" multiplier="4:3" id="1Xe-bU-8A4"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gME-ru-gER">
+                                <rect key="frame" x="0.0" y="704" width="64" height="64"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="64" id="Jjk-Rb-JWb">
+                                        <variation key="heightClass=compact" constant="32"/>
+                                    </constraint>
+                                    <constraint firstAttribute="height" constant="64" id="q6j-fP-hnA">
+                                        <variation key="heightClass=compact" constant="32"/>
+                                    </constraint>
+                                </constraints>
+                                <state key="normal" image="btnCerrarDatos"/>
+                                <connections>
+                                    <action selector="closeButton:" destination="wEL-kW-EBg" eventType="touchUpInside" id="eZg-CJ-cRa"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="gME-ru-gER" firstAttribute="leading" secondItem="7v0-H1-w3W" secondAttribute="leading" id="N70-C8-DDN"/>
+                            <constraint firstItem="SF4-zT-1Jj" firstAttribute="top" secondItem="7v0-H1-w3W" secondAttribute="top" id="S5o-VT-xrU"/>
+                            <constraint firstItem="f5Q-sp-hJy" firstAttribute="top" secondItem="gME-ru-gER" secondAttribute="bottom" id="UMM-Ib-ZuH"/>
+                            <constraint firstAttribute="trailing" secondItem="SF4-zT-1Jj" secondAttribute="trailing" id="Zsa-cm-KdC"/>
+                            <constraint firstItem="f5Q-sp-hJy" firstAttribute="top" secondItem="SF4-zT-1Jj" secondAttribute="bottom" id="ca7-FQ-kkZ"/>
+                            <constraint firstItem="SF4-zT-1Jj" firstAttribute="leading" secondItem="7v0-H1-w3W" secondAttribute="leading" id="fhN-H3-d7c"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imagenDatos" destination="SF4-zT-1Jj" id="r5n-wK-BFV"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="U4o-lp-3fn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2146" y="680"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="TZ3-ec-ssF">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="CEj-rL-Wfp" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="IE6-4D-Rwz">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="57T-FV-QDk" kind="relationship" relationship="rootViewController" id="fAU-m0-2B4"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Osz-tU-epZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="254.75841874084918" y="-113.08593749999999"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="BtnDatos" width="276" height="102"/>
+        <image name="Chignahuapan0" width="362" height="264"/>
+        <image name="Mapa" width="513" height="643"/>
+        <image name="btnAngelopolis" width="207" height="168"/>
+        <image name="btnAtlixco" width="207" height="168"/>
+        <image name="btnAtractivos" width="276" height="102"/>
+        <image name="btnCerrar" width="109" height="102"/>
+        <image name="btnCerrarDatos" width="64" height="64"/>
+        <image name="btnMixteca" width="207" height="168"/>
+        <image name="btnMoreInfo" width="533" height="79"/>
+        <image name="btnSierraNororiental" width="207" height="259"/>
+        <image name="btnSierraNorte" width="207" height="203"/>
+        <image name="btnTehuacan" width="207" height="168"/>
+        <image name="btnValleSerdan" width="207" height="259"/>
+        <image name="closeBtn" width="80" height="64"/>
+        <image name="datosGeneralesTehuacanG" width="512" height="384"/>
+        <image name="inicioAtlixco" width="690" height="447"/>
+    </resources>
+</document>
